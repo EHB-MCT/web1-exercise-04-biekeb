@@ -1,1 +1,43 @@
-/* nothing here */
+body {margin-top: 10px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: rgb(0, 14, 26);
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Spectral&display=swap');
+
+h1{
+    font-family: 'Spectral', serif;
+    font-size: 70px;
+    color: aliceblue
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Spectral&display=swap');
+
+#p1{
+    font-family: 'Karla', sans-serif;
+    color: rgb(142, 165, 180);
+}
+
+
+#p2{
+    font-family: 'Karla', sans-serif;
+    color: rgb(185, 40, 40);
+    font-size: smaller;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+a:link, a:visited {
+    background-color: rgb(185, 40, 40);
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 25px;
+    font-size: small;
+}
